@@ -1,4 +1,8 @@
-import './styles/App.css';
+// component imports
+import NavBar from './components/NavBar/NavBar';
+
+// import styles
+import './styles/App.scss';
 
 function App() {
   return (
