@@ -1,0 +1,110 @@
+@use './typography' as *;
+@use './variables' as *;
+
+// mixins mobile fonts
+@mixin page-header-mobile {
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 2.25rem;
+    font-family: 'Oregon';
+}
+
+@mixin subheader-mobile {
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.75rem;
+    font-family: 'Oregon';
+}
+
+@mixin smallheader-mobile {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.25rem;
+    font-family: 'Oregon';
+}
+
+@mixin label-buttons-mobile{
+  font-size: 0.813rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+  font-family: 'Oregon';
+}
+
+@mixin table-header-mobile {
+    font-size: 0.688rem;
+    font-weight: normal;
+    line-height: 1rem;
+    font-family: 'Oregon';
+}
+
+@mixin body-large-mobile{
+    font-size: 0.938rem;
+    font-weight: normal;
+    line-height: 1.625rem;
+    font-family: 'Oregon';
+}
+
+@mixin body-medium-mobile{
+  font-size: 0.813rem;
+  font-weight: normal;
+  line-height: 1.25rem;
+  font-family: 'Oregon';
+}
+
+@mixin body-small-mobile{
+  font-size: 0.688rem;
+  font-weight: normal;
+  line-height: 1rem;
+  font-family: 'Oregon';
+}
+
+// mixins desktop & tablet mode
+
+@mixin page-header{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    font-family: 'Oregon';
+}
+
+@mixin subheader{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2rem;
+    font-family: 'Oregon';
+}
+
+@mixin smallheader {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    font-family: 'Oregon';
+}
+
+@mixin label-buttons{
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.375rem;
+    font-family: 'Oregon';
+}
+
+@mixin body-large-desktop{
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.75rem;
+    font-family: 'Oregon';
+}
+
+@mixin body-medium{
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: 1.375rem;
+    font-family: 'Oregon';
+}
+
+@mixin body-small{
+    font-size: 0.75rem;
+    font-weight: normal;
+    line-height: 1.125rem;
+    font-family: 'Oregon';
+}
