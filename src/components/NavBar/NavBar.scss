@@ -11,10 +11,19 @@
         display: flex;
         justify-content: space-evenly;
         width: 70%;
+        
+        @include mobile {
+            display: none;
+        }
     }
     &__image {
         width: 30%;
         text-align: end;
         padding: 0%;
+
+        @include mobile {
+            text-align: unset;
+            width: unset;
+        }
     }
 }

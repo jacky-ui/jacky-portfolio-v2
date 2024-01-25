@@ -15,31 +15,4 @@
   src: url("../../assets/fonts/OregonLdoBold-gxe6.woff") format("woff");
   font-weight: bold;
   font-style: normal;
-}
-.nav {
-  padding: 2rem 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav__link {
-  display: flex;
-  justify-content: space-evenly;
-  width: 70%;
-}
-@media screen and (max-width: 760px) {
-  .nav__link {
-    display: none;
-  }
-}
-.nav__image {
-  width: 30%;
-  text-align: end;
-  padding: 0%;
-}
-@media screen and (max-width: 760px) {
-  .nav__image {
-    text-align: unset;
-    width: unset;
-  }
-}/*# sourceMappingURL=NavBar.css.map */
+}/*# sourceMappingURL=Hamburger.css.map */
