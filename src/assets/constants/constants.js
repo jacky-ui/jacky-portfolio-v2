@@ -1,11 +1,39 @@
-import beesKnees from '../../assets/images/bees-knees.png';
-import studioGhibliApi from '../../assets/images/ghibli-project.png';
-import ducommunicate from "../../assets/images/du-communicate.png";
-import pokeBattle from '../../assets/images/pokebattle.png';
+// import beesKnees from '../../assets/images/bees-knees.png';
+// import studioGhibliApi from '../../assets/images/ghibli-project.png';
+// import ducommunicate from "../../assets/images/du-communicate.png";
+// import pokeBattle from '../../assets/images/pokebattle.png';
 // eslint-disable-next-line
-import loginSignUp from '../../assets/images/login-signup-project.png';
+// import loginSignUp from '../../assets/images/login-signup-project.png';
 
-const projects = [
+const navContent = [
+    {
+        content: "Home",
+        link: "#home",
+        arialabel: "Click here to go home"
+    },
+    {
+        content: "About",
+        link: "#about",
+        arialabel: "Click here to go about me section"
+    },
+    {
+        content: "Skills",
+        link: "#skills",
+        arialabel: "Click here to go skills section"
+    },
+    {
+        content: "Projects",
+        link: "#projects",
+        arialabel: "Click here to go projects section"
+    },
+    {
+        content: "Contact Me",
+        link: "#contactme",
+        arialabel: "Click here to contact me"
+    },
+];
+
+[/*const projects = [
     {
         projectImage: beesKnees,
         subheader: "Bees Knees",
@@ -58,7 +86,7 @@ const projects = [
         imageAlt: "Du-Communicate Server",
         tools: "#javascript #nodejs #expressjs #bcrypt"
     },
-];
+];*/]
 const skills = [
     {
         title: "Front-End",
