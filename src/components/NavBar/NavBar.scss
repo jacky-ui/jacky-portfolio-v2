@@ -1,0 +1,20 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.nav {
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    &__link {
+        display: flex;
+        justify-content: space-evenly;
+        width: 70%;
+    }
+    &__image {
+        width: 30%;
+        text-align: end;
+        padding: 0%;
+    }
+}
