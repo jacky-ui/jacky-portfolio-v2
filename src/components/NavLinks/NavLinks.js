@@ -1,10 +1,10 @@
 // Import style
 import './NavLinks.scss';
 
-function NavLinks() {
+function NavLinks({ key, title, link, aria }) {
     return(
         <>
-            <a href='https://jacky-du-portfolio.netlify.app/'></a>
+            <a key={key} href={link} aria-label={aria}>{title}</a>
         </>
     )
 };

@@ -33,7 +33,7 @@ const navContent = [
     },
 ];
 
-[/*const projects = [
+{/*const projects = [
     {
         projectImage: beesKnees,
         subheader: "Bees Knees",
@@ -86,7 +86,7 @@ const navContent = [
         imageAlt: "Du-Communicate Server",
         tools: "#javascript #nodejs #expressjs #bcrypt"
     },
-];*/]
+];*/}
 const skills = [
     {
         title: "Front-End",
@@ -109,4 +109,4 @@ const skills = [
     }
 ];
 
-export { projects, skills };
+export { skills, navContent };
