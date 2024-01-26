@@ -12,6 +12,14 @@ function NavBar() {
     const [ showMenu, setShowMenu ] = useState(false);
     const [ closeMenu, setCloseMenu ] = useState(false); 
 
+    const toggleShowMenu = () => setShowMenu(prevShowMenu => !prevShowMenu);
+
+    // const changeMenu = () => {
+    //     if(showMenu === false) {
+    //         showMenu = true;
+    //     } else showMenu = false;
+    // };
+
     return(
         <nav className='nav'>
             <div className='nav__link'>
@@ -30,7 +38,7 @@ function NavBar() {
                     alt='site logo'
                 />
             </div>
-            <div className='hamburger--button' role='navigation button' onClick={() => setShowMenu(true)}>
+            <div className='hamburger--button' role='navigation button' onClick={toggleShowMenu}>
             <div className={`${showMenu ? "hamburger--first" : "hamburger--close1"}`}></div>
             <div className={`${showMenu ? "hamburger--second" : "hamburger--close2"}`}></div>
             <div className={`${showMenu ? "hamburger--third" : "hamburger--close3"}`}></div>
