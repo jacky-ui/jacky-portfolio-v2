@@ -1,4 +1,5 @@
 // component imports
+import Hero from './components/Hero/Hero';
 import NavBar from './components/NavBar/NavBar';
 
 // import styles
@@ -10,6 +11,7 @@ function App() {
     {/*Navigation and hero*/}
       <header>
         <NavBar />
+        <Hero />
       </header>
     </>
   );
