@@ -13,6 +13,12 @@ function Hero() {
                 {/*<span>{currentTitle}</span>*/}
                 <span></span>
             </h1>
+            <div>
+                <img 
+                    src={avatarImage}
+                    alt='Jacky Du Avatar'
+                />
+            </div>
         </div>
     )
 };

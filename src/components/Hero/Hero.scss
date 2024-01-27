@@ -26,8 +26,9 @@
         margin: 0;
         text-align: center;
         line-height: 110%;
-        font-size: 5rem;
         overflow: hidden;
+        @include page-header;
+        font-size: 3rem;
         
         @include mobile {
             font-size: 4rem;
@@ -68,17 +69,18 @@
         & > span::before {
             content: "Full-Stack Developer";
             animation: words 20s infinite;
+            line-height: 180%;
         }
         & > span::after {
             content: "";
             width: calc(100% + 0.4px);
-            height: 100%;
+            height: 80%;
             position: absolute;
             background-color: $body-bg;
             border-left: 2px solid $black;
             right: -8px;
             animation: cursor 1s infinite, typing 20s steps(20) infinite;
-
+            margin-top: 0.5rem;
         }
         @keyframes cursor {
             to {
