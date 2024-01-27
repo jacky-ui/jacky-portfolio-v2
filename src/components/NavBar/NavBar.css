@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoLight-nRd4.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoMedium-BWen.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoBold-gxe6.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+.nav {
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__link {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+}
+@media screen and (max-width: 760px) {
+  .nav__link {
+    display: none;
+  }
+}
+.nav__image {
+  width: 30%;
+  text-align: end;
+  padding: 0%;
+}
+@media screen and (max-width: 760px) {
+  .nav__image {
+    text-align: unset;
+    width: unset;
+  }
+}
+
+.hamburger--close1 {
+  transform: rotate(0);
+}
+.hamburger--first {
+  transform: rotate(45deg);
+}
+.hamburger--close2 {
+  transform: translateX(0);
+  opacity: 1;
+}
+.hamburger--second {
+  opacity: 0;
+  transform: translateX(20px);
+}
+.hamburger--close3 {
+  transform: rotate(0);
+}
+.hamburger--third {
+  transform: rotate(-45deg);
+}/*# sourceMappingURL=NavBar.css.map */

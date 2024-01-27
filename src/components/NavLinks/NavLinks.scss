@@ -1,0 +1,13 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.navlinks {
+    @include subheader;
+    text-decoration: none;
+    color: $black;
+
+    &:hover {
+        color: $font-header;
+        transition: 0.5s;
+    }
+}
