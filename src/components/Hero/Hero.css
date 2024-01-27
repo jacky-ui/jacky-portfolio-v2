@@ -15,4 +15,87 @@
   src: url("../../assets/fonts/OregonLdoBold-gxe6.woff") format("woff");
   font-weight: bold;
   font-style: normal;
+}
+.hero {
+  margin: 2rem;
+  position: relative;
+  height: 80vh;
+  border-radius: 5rem;
+}
+@media screen and (max-width: 760px) {
+  .hero {
+    height: 25rem;
+    margin: 1rem;
+  }
+}
+.hero__text {
+  color: #1C1C1C;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+  line-height: 110%;
+  font-size: 5rem;
+  overflow: hidden;
+}
+@media screen and (max-width: 760px) {
+  .hero__text {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 589px) {
+  .hero__text {
+    font-size: 10vw;
+    white-space: nowrap;
+  }
+}
+.hero__text > span {
+  position: relative;
+}
+.hero__text > span::before {
+  content: "Full-Stack Developer";
+  animation: words 20s infinite;
+}
+.hero__text > span::after {
+  content: "";
+  width: calc(100% + 0.4px);
+  height: 100%;
+  position: absolute;
+  background-color: #FFFFFF;
+  border-left: 2px solid #1C1C1C;
+  right: -8px;
+  animation: cursor 1s infinite, typing 20s steps(20) infinite;
+}
+@keyframes cursor {
+  to {
+    border-left: 2px solid #FFFFFF;
+  }
+}
+@keyframes words {
+  0%, 20% {
+    content: "Web Developer";
+  }
+  21%, 40% {
+    content: "Full-Stack Developer";
+  }
+  41%, 60% {
+    content: "Front-End Developer";
+  }
+  61%, 80% {
+    content: "Web Developer";
+  }
+  81%, 100% {
+    content: "Front-End Developer";
+  }
+}
+@keyframes typing {
+  10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+    width: 0;
+  }
+  5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+    width: calc(100% + 0.4rem);
+  }
 }/*# sourceMappingURL=Hero.css.map */
