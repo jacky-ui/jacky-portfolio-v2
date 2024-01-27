@@ -39,7 +39,7 @@ function NavBar() {
                 <div className={`${showMenu ? "hamburger--second" : "hamburger--close2"}`}></div>
                 <div className={`${showMenu ? "hamburger--third" : "hamburger--close3"}`}></div>
             </div>
-            <Hamburger showMenuList={showMenu}/>
+            <Hamburger showMenuList={showMenu} closeMenuToggle={toggleShowMenu}/>
         </nav>
     )
 };

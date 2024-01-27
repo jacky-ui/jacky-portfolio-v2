@@ -9,7 +9,8 @@
         position: absolute;
         right: 0;
         top: 0;
-        background-color: #383838;
+        background-color: $body-bg;
+        border: 1px solid $black;
         padding: 3rem;
         border-radius: 13px;
         z-index: 2;
