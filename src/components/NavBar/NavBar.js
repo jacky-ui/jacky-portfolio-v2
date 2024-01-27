@@ -21,7 +21,7 @@ function NavBar() {
             <div className='nav__link'>
                 {navContent.map((content) => (
                     <NavLinks
-                        key={content.content}
+                        key={content.key}
                         title={content.content}
                         link={content.link}
                         aria={content.arialabel}

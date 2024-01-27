@@ -7,26 +7,31 @@
 
 const navContent = [
     {
+        key: 1,
         content: "Home",
         link: "#home",
         arialabel: "Click here to go home"
     },
     {
+        key: 2,
         content: "About",
         link: "#about",
         arialabel: "Click here to go about me section"
     },
     {
+        key: 3,
         content: "Skills",
         link: "#skills",
         arialabel: "Click here to go skills section"
     },
     {
+        key: 4,
         content: "Projects",
         link: "#projects",
         arialabel: "Click here to go projects section"
     },
     {
+        key: 5,
         content: "Contact Me",
         link: "#contactme",
         arialabel: "Click here to contact me"
