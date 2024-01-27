@@ -30,84 +30,27 @@
 
 .hamburger {
     // hamburger icon animation
-// First Hamburger Line
-&--close1 {
-    transform: rotate(0);
-}
-&--first {
-    transform: rotate(45deg);
-}
-// Second Hamburger Line
-&--close2 {
-    transform: translateX(0);
-    opacity: 1;
-}
-&--second {
-    opacity: 0;
-    transform: translateX(20px);
-}
-// Third Hamburger Line
-&--close3 {
-    transform: rotate(0);
-}
-&--third {
-    transform: rotate(-45deg);
-}
-}
-
-.hamburger {
-    display: none;
-
-    @include mobile {
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        background-color: #383838;
-        padding: 3rem;
-        border-radius: 13px;
-        z-index: 2;
+    // First Hamburger Line
+    &--close1 {
+        transform: rotate(0);
     }
-
-    &__list {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
+    &--first {
+        transform: rotate(45deg);
     }
-
-    &--button {
-        display: none;
-
-        @include mobile {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            width: 2rem;
-            height: 2rem;
-            background: transparent;
-            border: none;
-            cursor: pointer;
-            padding: 0;
-            z-index: 10;
-        }
-
-        &:focus {
-            outline: none;
-        }
-
-        & div {
-            width: 2rem;
-            height: 0.25rem;
-            background: $black;
-            border-radius: 10px;
-            transition: all 0.3s linear;
-            position: relative;
-            transform-origin: 1px;
-        }
+    // Second Hamburger Line
+    &--close2 {
+        transform: translateX(0);
+        opacity: 1;
     }
-    // Display none for when the menu is not clicked on
-    &--none {
-        display: none;
+    &--second {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    // Third Hamburger Line
+    &--close3 {
+        transform: rotate(0);
+    }
+    &--third {
+        transform: rotate(-45deg);
     }
 }
