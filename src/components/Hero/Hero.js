@@ -13,7 +13,7 @@ function Hero() {
                 {/*<span>{currentTitle}</span>*/}
                 <span></span>
             </h1>
-            <div>
+            <div className='hero__image'>
                 <img 
                     src={avatarImage}
                     alt='Jacky Du Avatar'

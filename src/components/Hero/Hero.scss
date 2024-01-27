@@ -113,4 +113,21 @@
             }
         }
     }
+    &__image {
+        position: absolute;
+        bottom: 0%;
+        text-align: center;
+        width: 100%;
+
+        @include mobile {
+            position: relative;
+            bottom: 6rem;
+        }
+
+        & > img {
+            @include mobile {
+                width: 80%;
+            }
+        }
+    }
 }

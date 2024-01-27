@@ -104,4 +104,21 @@
   5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
     width: calc(100% + 0.4rem);
   }
+}
+.hero__image {
+  position: absolute;
+  bottom: 0%;
+  text-align: center;
+  width: 100%;
+}
+@media screen and (max-width: 760px) {
+  .hero__image {
+    position: relative;
+    bottom: 6rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  .hero__image > img {
+    width: 80%;
+  }
 }/*# sourceMappingURL=Hero.css.map */
