@@ -2,13 +2,9 @@
 @use '../../styles/partials/variables' as *;
 
 .navlinks {
-    @include page-header;
+    @include subheader;
     text-decoration: none;
     color: $black;
-
-    @include tablet {
-        @include subheader;
-    }
 
     &:hover {
         color: $font-header;
