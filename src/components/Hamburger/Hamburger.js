@@ -11,7 +11,7 @@ function Hamburger(props) {
         <div className={`${props.showMenuList ? "hamburger" : "hamburger--none"}`}>
             <ul className='hamburger__list'>
                 {navContent.map((content) => (
-                    <li onClick={props.closeMenuToggle}>
+                    <li key={content.content} onClick={props.closeMenuToggle}>
                         <NavLinks
                             key={content.content}
                             title={content.content}
