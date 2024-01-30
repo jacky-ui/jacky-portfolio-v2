@@ -30,7 +30,6 @@
 }
 .hero__text {
   color: #1C1C1C;
-  height: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,6 +43,8 @@
   line-height: 2.5rem;
   font-family: "Oregon";
   font-size: 3rem;
+  margin: 4rem 0 2rem 0;
+  padding-top: 2rem;
 }
 @media screen and (max-width: 760px) {
   .hero__text {
@@ -106,19 +107,28 @@
   }
 }
 .hero__image {
-  position: absolute;
-  bottom: 0%;
   text-align: center;
   width: 100%;
 }
 @media screen and (max-width: 760px) {
-  .hero__image {
-    position: relative;
-    bottom: 3rem;
+  .hero__image > img {
+    width: 16rem;
+  }
+}
+.hero__bgImage {
+  text-align: center;
+  margin-top: 2rem;
+}
+.hero__bgImage > img {
+  max-width: 1000px;
+}
+@media screen and (max-width: 1000px) and (min-width: 761px) {
+  .hero__bgImage > img {
+    width: 100%;
   }
 }
 @media screen and (max-width: 760px) {
-  .hero__image > img {
-    width: 16rem;
+  .hero__bgImage > img {
+    width: 100%;
   }
 }/*# sourceMappingURL=Hero.css.map */

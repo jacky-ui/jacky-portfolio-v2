@@ -19,7 +19,7 @@ function Hero() {
                     alt='Jacky Du Avatar'
                 />
             </div>
-            <div>
+            <div className='hero__bgImage'>
                 <img 
                     src={codingBg}
                     alt=""
