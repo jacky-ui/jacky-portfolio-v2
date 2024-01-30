@@ -8,7 +8,7 @@
     // background-repeat: no-repeat;
     // background-size: cover;
     position: relative;
-    height: 80vh;
+    height: 33rem;
     border-radius: 5rem;
 
     @include mobile {
@@ -18,7 +18,7 @@
 
     &__text {
         color: $black;
-        height: 100%;
+        height: 60%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -35,7 +35,7 @@
         }
         // Make title smaller on smaller screen size
         @media screen and (max-width:589px) {
-            font-size: 10vw;
+            font-size: 2rem;
             white-space: nowrap;
         }
         // // Styling of typing effect
@@ -121,12 +121,12 @@
 
         @include mobile {
             position: relative;
-            bottom: 6rem;
+            bottom: 3rem;
         }
 
         & > img {
             @include mobile {
-                width: 80%;
+                width: 16rem;
             }
         }
     }

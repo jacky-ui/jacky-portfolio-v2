@@ -19,6 +19,12 @@ function Hero() {
                     alt='Jacky Du Avatar'
                 />
             </div>
+            <div>
+                <img 
+                    src={codingBg}
+                    alt=""
+                />
+            </div>
         </div>
     )
 };
