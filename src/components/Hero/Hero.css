@@ -17,14 +17,12 @@
   font-style: normal;
 }
 .hero {
-  margin: 2rem;
+  margin: 2rem 2rem 0rem 2rem;
   position: relative;
-  height: 33rem;
   border-radius: 5rem;
 }
 @media screen and (max-width: 760px) {
   .hero {
-    height: 25rem;
     margin: 1rem;
   }
 }

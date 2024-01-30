@@ -3,7 +3,8 @@ import './AboutMe.scss';
 
 function AboutMe() {
     return(
-        <section>
+        <section className='aboutme'>
+            <h1>some text here</h1>
         </section>
     )
 };
