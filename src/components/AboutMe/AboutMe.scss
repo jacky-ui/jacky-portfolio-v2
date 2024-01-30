@@ -5,6 +5,9 @@
     background-color: $black;
     color: $body-bg;
     padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 
     & > h2 {
@@ -13,5 +16,15 @@
     }
     & > p {
         @include body-large-desktop;
+        margin-bottom: 0%;
+        width: 50%;
+
+        @include tablet {
+            width: 80%;
+        }
+
+        @include mobile {
+            width: 100%;
+        }
     }
 }
