@@ -3,4 +3,9 @@
 
 .aboutme {
     background-color: $black;
+    color: $body-bg;
+
+    & > h2 {
+        margin-top: 0%;
+    }
 }

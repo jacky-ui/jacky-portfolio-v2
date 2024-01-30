@@ -23,7 +23,7 @@
 }
 @media screen and (max-width: 760px) {
   .hero {
-    margin: 1rem;
+    margin: 1rem 1rem 0 1rem;
   }
 }
 .hero__text {

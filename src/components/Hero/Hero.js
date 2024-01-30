@@ -7,7 +7,7 @@ import codingBg from '../../assets/images/coding-background-v2.png';
 
 function Hero() {
     return(
-        <div className='hero' id='home'>
+        <section className='hero' id='home'>
             <h1 className='hero__text'>
                 Jacky Du, C. Tech<br/> 
                 {/*<span>{currentTitle}</span>*/}
@@ -25,7 +25,7 @@ function Hero() {
                     alt=""
                 />
             </div>
-        </div>
+        </section>
     )
 };
 

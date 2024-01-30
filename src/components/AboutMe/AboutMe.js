@@ -4,7 +4,8 @@ import './AboutMe.scss';
 function AboutMe() {
     return(
         <section className='aboutme'>
-            <h1>some text here</h1>
+            <h2>Hi, I'm Jacky Du. Nice to meet you.</h2>
+            <p></p>
         </section>
     )
 };
