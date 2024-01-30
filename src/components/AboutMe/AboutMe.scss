@@ -4,8 +4,14 @@
 .aboutme {
     background-color: $black;
     color: $body-bg;
+    padding: 4rem 2rem;
+    text-align: center;
 
     & > h2 {
         margin-top: 0%;
+        @include page-header;
+    }
+    & > p {
+        @include body-large-desktop;
     }
 }

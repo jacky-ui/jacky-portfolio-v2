@@ -38,6 +38,10 @@ const navContent = [
     },
 ];
 
+const aboutMe = [
+    "I've always had a natural curiosity for how things are made. As a child, I enjoyed taking things apart and putting them back together. This curiosity and passion has led me to the Electrical Engineering field, and now into Web Development. I am always interested in learning new things and being challenged!"
+];
+
 {/*const projects = [
     {
         projectImage: beesKnees,
@@ -114,4 +118,4 @@ const skills = [
     }
 ];
 
-export { skills, navContent };
+export { navContent, aboutMe, skills };
