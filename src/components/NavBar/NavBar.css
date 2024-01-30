@@ -21,6 +21,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1300px;
+  margin: auto;
 }
 .nav__link {
   display: flex;
