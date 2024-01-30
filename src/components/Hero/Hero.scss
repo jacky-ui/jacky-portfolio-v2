@@ -1,0 +1,144 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.hero {
+    margin: 2rem;
+    // background-image: url(../../assets/images/background.jpg);
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    position: relative;
+    height: 33rem;
+    border-radius: 5rem;
+
+    @include mobile {
+        height: 25rem;
+        margin: 1rem;
+    }
+
+    &__text {
+        color: $black;
+        // height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        text-align: center;
+        line-height: 110%;
+        overflow: hidden;
+        @include page-header;
+        font-size: 3rem;
+        margin: 4rem 0 2rem 0;
+        padding-top: 2rem;
+        
+        @include mobile {
+            font-size: 4rem;
+        }
+        // Make title smaller on smaller screen size
+        @media screen and (max-width:589px) {
+            font-size: 2rem;
+            white-space: nowrap;
+        }
+        // // Styling of typing effect
+        // & > span {
+        //     position: relative;
+        //     height: 91px;
+        //     line-height: 90px;
+        // }
+
+        // & > span::after {
+        //     content: "";
+        //     position: absolute;
+        //     left: 0;
+        //     height: 100%;
+        //     width: 100%;
+        //     border-left: 3px solid $body-bg;
+        //     background-color: $black;
+        //     animation: typing 5s steps(20) infinite;
+        // }
+        // @keyframes typing {
+        //     40%, 60%{
+        //         left: 100%;
+        //     }
+        //     100%{
+        //         left: 0%;
+        //     }
+        // }
+        & > span {
+            position: relative;
+        }
+        & > span::before {
+            content: "Full-Stack Developer";
+            animation: words 20s infinite;
+            line-height: 180%;
+        }
+        & > span::after {
+            content: "";
+            width: calc(100% + 0.4px);
+            height: 80%;
+            position: absolute;
+            background-color: $body-bg;
+            border-left: 2px solid $black;
+            right: -8px;
+            animation: cursor 1s infinite, typing 20s steps(20) infinite;
+            margin-top: 0.5rem;
+        }
+        @keyframes cursor {
+            to {
+                border-left: 2px solid $body-bg;
+            }
+        }
+        @keyframes words {
+            0%,20% {
+                content: "Web Developer";
+            }
+            21%,40% {
+                content: "Full-Stack Developer";
+            }
+            41%,60% {
+                content: "Front-End Developer";
+            }
+            61%,80% {
+                content: "Web Developer";
+            }
+            81%,100% {
+                content: "Front-End Developer";
+            }
+        }
+        @keyframes typing {
+            10%,15%,30%,35%,50%,55%,70%,75%,90%,95% {
+                width: 0;
+            }
+            5%,20%,25%,40%,45%,60%,65%,80%,85% {
+                width: calc(100% + 0.4rem);
+            }
+        }
+    }
+    &__image {
+        text-align: center;
+        width: 100%;
+
+        & > img {
+            @include mobile {
+                width: 16rem;
+            }
+        }
+    }
+    &__bgImage {
+        text-align: center;
+        margin-top: 2rem;
+        
+        & > img {
+            max-width: 1000px;
+
+            @include tablet {
+                width: 100%;
+            }
+
+            @include mobile {
+                width: 100%;
+            }
+        }
+    }
+}
