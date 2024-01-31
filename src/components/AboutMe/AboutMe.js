@@ -1,6 +1,5 @@
 // style, constants and component imports
 import { aboutMe } from '../../assets/constants/constants';
-import MileStone from '../MileStone/MileStone';
 import './AboutMe.scss';
 
 function AboutMe() {
