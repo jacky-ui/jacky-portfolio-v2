@@ -33,6 +33,12 @@
   font-weight: bold;
   line-height: 2.5rem;
   font-family: "Oregon";
+  width: 60%;
+}
+@media screen and (max-width: 760px) {
+  .aboutme > div:first-child > h2 {
+    width: 100%;
+  }
 }
 .aboutme > div:first-child > p {
   font-size: 1rem;
@@ -51,4 +57,7 @@
   .aboutme > div:first-child > p {
     width: 100%;
   }
+}
+.aboutme__skills {
+  background-color: #FFFFFF;
 }/*# sourceMappingURL=AboutMe.css.map */

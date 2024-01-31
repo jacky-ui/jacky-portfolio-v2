@@ -20,6 +20,11 @@
     & > div:first-child > h2 {
         margin-top: 0%;
         @include page-header;
+        width: 60%;
+
+        @include mobile {
+            width: 100%;
+        }
     }
     & > div:first-child > p {
         @include body-large-desktop;
@@ -33,5 +38,8 @@
         @include mobile {
             width: 100%;
         }
+    }
+    &__skills {
+        background-color: $body-bg;
     }
 }

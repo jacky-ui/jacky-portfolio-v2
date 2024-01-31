@@ -6,9 +6,11 @@ function AboutMe() {
     return(
         <section className='aboutme' id="about">
             <div>
-                <h2>Hi, I'm Jacky Du. Nice to meet you.</h2>
+                <h2>Hi, I'm Jacky Du. Nice to meet you. I'm a Full-Stack Developer who specializes on the Front-End</h2>
                 <p>{aboutMe}</p>
             </div>
+            <article className='aboutme__skills'>
+            </article>
         </section>
     )
 };
