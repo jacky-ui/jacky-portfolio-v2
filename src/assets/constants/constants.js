@@ -46,10 +46,48 @@ const aboutMe = [
 
 const education = [
     {
-        program: "Electrical Engineering",
-        description: "",
+        program: "Electrical Engineering Technician",
+        school: "Centennial College",
+        description: "2-year Electrical Engineering Technician program, developing skills in design, installtion, maintenance and repair of electrical/electronic systems. OACETT recognized program.",
+        icon: educationIcon
+    },
+    {
+        program: "Web Development",
+        school: "BrainStation",
+        description: "Extensive 12-week immersive Web Development program in Full-Stack Engineering through completion of multiple projects, cross-disciplinary collaboration and pair-programming.",
         icon: educationIcon
     }
+]
+
+const work = [
+    {
+        position: "Meter Technician",
+        company: "QMC (Quadlogic Meters Canada)",
+        summary: "something here",
+        duration: "Jun 2019 - Nov 2019",
+        icon: workIcon
+    },
+    {
+        position: "Meter Lab Technician",
+        company: "QMC (Quadlogic Meters Canada)",
+        summary: "something here",
+        duration: "Nov 2019 - Dec 2021",
+        icon: workIcon
+    },
+    {
+        position: "Lead Lab Technician",
+        company: "QMC (Quadlogic Meters Canada)",
+        summary: "something here",
+        duration: "Dec 2021 - Feb 2022",
+        icon: workIcon
+    },
+    {
+        position: "Website Operations",
+        company: "The Source (Bell) Electronics Inc",
+        summary: "something here",
+        duration: "Jun 2022 - Present",
+        icon: workIcon
+    },
 ]
 
 {/*const projects = [
@@ -128,4 +166,4 @@ const skills = [
     }
 ];
 
-export { navContent, aboutMe, education, skills };
+export { navContent, aboutMe, education, work, skills };
