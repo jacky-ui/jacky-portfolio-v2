@@ -1,0 +1,37 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.aboutme {
+    background-color: $black;
+    color: $body-bg;
+    padding: 4rem 2rem;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // text-align: center;
+
+    & > div:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    & > div:first-child > h2 {
+        margin-top: 0%;
+        @include page-header;
+    }
+    & > div:first-child > p {
+        @include body-large-desktop;
+        margin-bottom: 0%;
+        width: 50%;
+
+        @include tablet {
+            width: 80%;
+        }
+
+        @include mobile {
+            width: 100%;
+        }
+    }
+}

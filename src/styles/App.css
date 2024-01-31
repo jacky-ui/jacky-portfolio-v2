@@ -1,1 +1,17 @@
-/*# sourceMappingURL=App.css.map */
+* {
+  box-sizing: border-box;
+}
+*::before {
+  box-sizing: border-box;
+}
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  margin-bottom: -0.25rem;
+}/*# sourceMappingURL=App.css.map */

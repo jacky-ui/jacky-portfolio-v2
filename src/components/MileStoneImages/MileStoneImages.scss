@@ -1,0 +1,26 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.milestoneimg {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 0rem 5rem;
+    
+    &__icon {
+        background-color: $body-bg;
+        border-radius: 26px;
+        padding: 0.5rem;
+        width: 3rem;
+
+        &:hover {
+            background-color: $font-header;
+            transition: 0.5s;
+        }
+    }
+
+    &__line {
+        border-bottom: 1px solid $body-bg;
+        width: 12rem;
+    }
+}

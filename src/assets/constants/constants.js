@@ -4,6 +4,8 @@
 // import pokeBattle from '../../assets/images/pokebattle.png';
 // eslint-disable-next-line
 // import loginSignUp from '../../assets/images/login-signup-project.png';
+import educationIcon from '../images/education-icon.png';
+import workIcon from '../images/work-icon.png';
 
 const navContent = [
     {
@@ -37,6 +39,56 @@ const navContent = [
         arialabel: "Click here to contact me"
     },
 ];
+
+const aboutMe = [
+    "I've always had a natural curiosity for how things are made. As a child, I enjoyed taking things apart and putting them back together. This curiosity and passion has led me to the Electrical Engineering field, and now into Web Development. I am always interested in learning new things and being challenged! I'm a Full-Stack Developer who specializes on the Front-End"
+];
+
+const education = [
+    {
+        program: "Electrical Engineering Technician",
+        school: "Centennial College",
+        description: "2-year Electrical Engineering Technician program, developing skills in design, installtion, maintenance and repair of electrical/electronic systems. OACETT recognized program.",
+        icon: educationIcon
+    },
+    {
+        program: "Web Development",
+        school: "BrainStation",
+        description: "Extensive 12-week immersive Web Development program in Full-Stack Engineering through completion of multiple projects, cross-disciplinary collaboration and pair-programming.",
+        icon: educationIcon
+    }
+]
+
+const work = [
+    {
+        position: "Meter Technician",
+        company: "QMC (Quadlogic Meters Canada)",
+        summary: "something here",
+        duration: "Jun 2019 - Nov 2019",
+        icon: workIcon
+    },
+    {
+        position: "Meter Lab Technician",
+        company: "QMC (Quadlogic Meters Canada)",
+        summary: "something here",
+        duration: "Nov 2019 - Dec 2021",
+        icon: workIcon
+    },
+    {
+        position: "Lead Lab Technician",
+        company: "QMC (Quadlogic Meters Canada)",
+        summary: "something here",
+        duration: "Dec 2021 - Feb 2022",
+        icon: workIcon
+    },
+    {
+        position: "Website Operations",
+        company: "The Source (Bell) Electronics Inc",
+        summary: "something here",
+        duration: "Jun 2022 - Present",
+        icon: workIcon
+    },
+]
 
 {/*const projects = [
     {
@@ -114,4 +166,4 @@ const skills = [
     }
 ];
 
-export { skills, navContent };
+export { navContent, aboutMe, education, work, skills };
