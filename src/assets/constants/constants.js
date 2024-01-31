@@ -4,6 +4,8 @@
 // import pokeBattle from '../../assets/images/pokebattle.png';
 // eslint-disable-next-line
 // import loginSignUp from '../../assets/images/login-signup-project.png';
+import educationIcon from '../images/education-icon.png';
+import workIcon from '../images/work-icon.png';
 
 const navContent = [
     {
@@ -41,6 +43,14 @@ const navContent = [
 const aboutMe = [
     "I've always had a natural curiosity for how things are made. As a child, I enjoyed taking things apart and putting them back together. This curiosity and passion has led me to the Electrical Engineering field, and now into Web Development. I am always interested in learning new things and being challenged! I'm a Full-Stack Developer who specializes on the Front-End"
 ];
+
+const education = [
+    {
+        program: "Electrical Engineering",
+        description: "",
+        icon: educationIcon
+    }
+]
 
 {/*const projects = [
     {
@@ -118,4 +128,4 @@ const skills = [
     }
 ];
 
-export { navContent, aboutMe, skills };
+export { navContent, aboutMe, education, skills };
