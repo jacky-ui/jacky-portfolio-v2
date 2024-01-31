@@ -5,8 +5,10 @@ import './AboutMe.scss';
 function AboutMe() {
     return(
         <section className='aboutme'>
-            <h2>Hi, I'm Jacky Du. Nice to meet you.</h2>
-            <p>{aboutMe}</p>
+            <div>
+                <h2>Hi, I'm Jacky Du. Nice to meet you.</h2>
+                <p>{aboutMe}</p>
+            </div>
         </section>
     )
 };
