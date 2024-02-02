@@ -1,2 +1,40 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
+
+.skillscard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+
+        & > h3 {
+            width: 40%;
+            @include subheader;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+        @include body-large-desktop;
+        width: 60%;
+
+        & > li {
+            text-align: center;
+
+            & > p {
+                margin: 0%;
+            }
+
+            & img {
+                width: 5rem;
+            }
+        }
+    }
+}

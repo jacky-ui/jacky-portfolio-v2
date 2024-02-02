@@ -147,23 +147,35 @@ const work = [
 const skills = [
     {
         title: "Front-End",
-        skillSet: [ "HTML5", "CSS", "SASS", "Bootstrap", "JavaScript", "React" ]
+        skillSet: [ "HTML5", "CSS", "SASS", "Bootstrap", "JavaScript", "React" ],
+        skillIcon: [ 
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", 
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", 
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg", 
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", 
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", 
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
+        ],
+        altText : ""
     },
     {
         title: "Back-End",
-        skillSet: [ "JavaScript", "Node.js", "Express.js", "mySQL" ]
+        skillSet: [ "JavaScript", "Node.js", "Express.js", "mySQL" ],
+        skillIcon: [
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        ],
+        altText : ""
     },
     {
-        title: "Libraries",
-        skillSet: [ "React-Router-Dom", "bcrypt", "Axios", "JWT", "express-rate-limit" ]
-    },    {
-        title: "Tools",
-        skillSet: [ "Figma", "Git", "Github", "VSCode", "Postman", "SAP hybris", "SmartEdit", "JIRA" ]
+        title: "Libraries, Tools, and Others",
+        skillSet: [
+            "React-Router-Dom", "bcrypt", "Axios", "JWT", "express-rate-limit", "Figma", "Git", "Github", "VSCode", "Postman", "SAP hybris", "SmartEdit", "JIRA", "AutoCAD", "Arduino"
+        ],
+        listClass: "skillscard__list--column"
     },
-    {
-        title: "Others",
-        skillSet: [ "AutoCAD", "Arduino" ]
-    }
 ];
 
 export { navContent, aboutMe, education, work, skills };

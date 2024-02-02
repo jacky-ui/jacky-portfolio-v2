@@ -15,4 +15,41 @@
   src: url("../../assets/fonts/OregonLdoBold-gxe6.woff") format("woff");
   font-weight: bold;
   font-style: normal;
+}
+.skillscard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skillscard__container {
+  display: flex;
+  justify-content: space-between;
+}
+.skillscard__container > h3 {
+  width: 40%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+  font-family: "Oregon";
+}
+.skillscard__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.75rem;
+  font-family: "Oregon";
+  width: 60%;
+}
+.skillscard__list > li {
+  text-align: center;
+}
+.skillscard__list > li > p {
+  margin: 0%;
+}
+.skillscard__list > li img {
+  width: 5rem;
 }/*# sourceMappingURL=SkillsCard.css.map */
