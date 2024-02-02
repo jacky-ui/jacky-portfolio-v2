@@ -174,7 +174,7 @@ const skills = [
         skillSet: [
             "React-Router-Dom", "bcrypt", "Axios", "JWT", "express-rate-limit", "Figma", "Git", "Github", "VSCode", "Postman", "SAP hybris", "SmartEdit", "JIRA", "AutoCAD", "Arduino"
         ],
-        listClass: "skillscard__list--column"
+        listClass: "column"
     },
 ];
 

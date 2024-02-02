@@ -54,7 +54,7 @@ function SkillsCard() {
                     </li>
                 </ul>
             </div>
-            <div className='skillscard__container'>
+            <div className='skillscard__container column'>
                 <h3>Libraries, Tools, and Others</h3>
                 <ul className='skillscard__list'>
                     <li>something</li>

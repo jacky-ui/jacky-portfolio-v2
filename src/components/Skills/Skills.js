@@ -5,7 +5,7 @@ import './Skills.scss';
 function Skills() {
     return(
         <section className="skills">
-            <h2>My Stack and Tools</h2>
+            <h2>My Stack and Tools:</h2>
             <SkillsCard />
         </section>
     )
