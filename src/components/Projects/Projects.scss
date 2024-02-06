@@ -1,2 +1,12 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
+
+.projects {
+    margin: 5rem auto 4rem auto;
+    max-width: 65rem;
+
+    & > h2 {
+        @include subheader;
+        text-align: center;
+    }
+}
