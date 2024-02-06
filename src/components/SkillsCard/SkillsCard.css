@@ -87,4 +87,8 @@
 
 .column {
   flex-direction: column;
+}
+.column > ul {
+  justify-content: flex-start;
+  gap: 2rem;
 }/*# sourceMappingURL=SkillsCard.css.map */

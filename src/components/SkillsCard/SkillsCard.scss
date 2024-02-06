@@ -63,4 +63,9 @@
 
 .column {
     flex-direction: column;
+
+    & > ul {
+        justify-content: flex-start;
+        gap: 2rem;
+    }
 }
