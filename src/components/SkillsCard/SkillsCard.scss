@@ -1,0 +1,71 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.skillscard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+
+        @include tablet {
+            flex-direction: column;
+        }
+        @include mobile {
+            flex-direction: column;
+        }
+
+        & > h3 {
+            width: 40%;
+            @include subheader;
+
+            @include tablet {
+                width: unset;
+            }
+            @include mobile {
+                width: unset;
+            }
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+        @include body-large-desktop;
+        width: 60%;
+
+        @include tablet {
+            width: unset;
+        }
+        @include mobile {
+            width: unset;
+        }
+
+        & > li {
+            text-align: center;
+
+            & > p {
+                margin: 0%;
+            }
+
+            & > div > img {
+                width: 5rem;
+            }
+        }
+    }
+}
+
+.column {
+    flex-direction: column;
+
+    & > ul {
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+}

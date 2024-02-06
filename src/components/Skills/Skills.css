@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoLight-nRd4.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoMedium-BWen.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoBold-gxe6.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+.skills {
+  background-color: #FFFFFF;
+  border: 1px solid #1C1C1C;
+  border-radius: 25px;
+  width: 80%;
+  max-width: 65rem;
+  margin: auto;
+  margin-top: -5rem;
+  padding: 2rem 1rem;
+}
+.skills > h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+  font-family: "Oregon";
+  margin: 0%;
+}/*# sourceMappingURL=Skills.css.map */

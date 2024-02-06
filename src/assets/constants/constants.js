@@ -41,7 +41,7 @@ const navContent = [
 ];
 
 const aboutMe = [
-    "I've always had a natural curiosity for how things are made. As a child, I enjoyed taking things apart and putting them back together. This curiosity and passion has led me to the Electrical Engineering field, and now into Web Development. I am always interested in learning new things and being challenged! I'm a Full-Stack Developer who specializes on the Front-End"
+    "I've always had a natural curiosity for how things are made. As a child, I enjoyed taking things apart and putting them back together. This curiosity and passion has led me to the Electrical Engineering field, and now into Web Development. I am always interested in learning new things and being challenged!"
 ];
 
 const education = [
@@ -147,23 +147,128 @@ const work = [
 const skills = [
     {
         title: "Front-End",
-        skillSet: [ "HTML5", "CSS", "SASS", "Bootstrap", "JavaScript", "React" ]
+        skillSet: [
+            {
+                skillName: "HTML",
+                skillIcon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+                altText: ""
+            }, {
+
+            },
+            {
+                skillName: "CSS",
+                skillIcon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+                altText: ""
+            }, {
+
+            },            
+            {
+                skillName: "SASS",
+                skillIcon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+                altText: ""
+            }, {
+
+            },  
+            {
+                skillName: "BootStrap",
+                skillIcon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+                altText: ""
+            }, {
+
+            },  
+            {
+                skillName: "JavaScript",
+                skillIcon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+                altText: ""
+            }, {
+
+            },  
+            {
+                skillName: "React",
+                skillIcon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+                altText: ""
+            }, {
+
+            },  
+               
+        ]
     },
     {
         title: "Back-End",
-        skillSet: [ "JavaScript", "Node.js", "Express.js", "mySQL" ]
+        skillSet: [
+            {
+                skillName: "JavaScript",
+                skillIcon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+                altText: "",
+            },
+            {
+                skillName: "Node.js",
+                skillIcon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+                altText: "",
+            },
+            {
+                skillName: "Express.js",
+                skillIcon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+                altText: "",
+            },
+            {
+                skillName: "mySQL",
+                skillIcon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+                altText: "",
+            },                        
+        ],
     },
     {
-        title: "Libraries",
-        skillSet: [ "React-Router-Dom", "bcrypt", "Axios", "JWT", "express-rate-limit" ]
-    },    {
-        title: "Tools",
-        skillSet: [ "Figma", "Git", "Github", "VSCode", "Postman", "SAP hybris", "SmartEdit", "JIRA" ]
+        title: "Libraries, Tools, and Others",
+        skillSet: [
+            {
+                skillName: "React-Router-Dom"
+            },
+            {
+                skillName: "bcrypt"
+            },
+            {
+                skillName: "Axios"
+            },
+            {
+                skillName: "JWY"
+            },
+            {
+                skillName: "express-rate-limit"
+            },
+            {
+                skillName: "VSCoded"
+            },
+            {
+                skillName: "Figma"
+            },
+            {
+                skillName: "JIRA"
+            },
+            {
+                skillName: "Git"
+            },
+            {
+                skillName: "Github"
+            },
+            {
+                skillName: "Postman"
+            },
+            {
+                skillName: "SAP hybris"
+            },
+            {
+                skillName: "SmartEdit"
+            },
+            {
+                skillName: "AutoCAD"
+            },
+            {
+                skillName: "Arduino"
+            },
+        ],
+        listClass: "column"
     },
-    {
-        title: "Others",
-        skillSet: [ "AutoCAD", "Arduino" ]
-    }
 ];
 
 export { navContent, aboutMe, education, work, skills };
