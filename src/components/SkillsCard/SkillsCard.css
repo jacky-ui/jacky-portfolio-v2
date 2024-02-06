@@ -81,7 +81,7 @@
 .skillscard__list > li > p {
   margin: 0%;
 }
-.skillscard__list > li img {
+.skillscard__list > li > div > img {
   width: 5rem;
 }
 
