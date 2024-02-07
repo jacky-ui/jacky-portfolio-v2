@@ -35,9 +35,10 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 0.6rem;
+  gap: 0.8rem;
   border-radius: 25px;
   opacity: 0;
+  padding: 1rem;
 }
 .projectCard__caption:hover {
   transition: 0.25s;
@@ -47,11 +48,27 @@
 }
 .projectCard__caption > h3 {
   margin: 0%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+  font-family: "Oregon";
 }
 .projectCard__caption > p {
   margin: 0%;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.75rem;
+  font-family: "Oregon";
 }
 .projectCard__caption--flex {
   display: flex;
   gap: 1rem;
+}
+.projectCard__caption--flex a {
+  color: #40E0D0;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 1.375rem;
+  font-family: "Oregon";
 }/*# sourceMappingURL=ProjectCard.css.map */
