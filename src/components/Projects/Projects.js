@@ -6,7 +6,7 @@ function Projects() {
     return(
         <section className='projects'>
             <h2>My Recent Projects</h2>
-            <div>
+            <div className='projects__container'>
                 <ProjectCard />
             </div>
         </section>

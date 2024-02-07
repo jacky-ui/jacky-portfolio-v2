@@ -26,6 +26,16 @@
   margin-top: -5rem;
   padding: 2rem 1rem;
 }
+@media screen and (max-width: 1000px) and (min-width: 761px) {
+  .skills {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .skills {
+    width: 90%;
+  }
+}
 .skills > h2 {
   font-size: 1.5rem;
   font-weight: bold;

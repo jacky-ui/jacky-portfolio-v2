@@ -15,4 +15,13 @@
   src: url("../../assets/fonts/OregonLdoBold-gxe6.woff") format("woff");
   font-weight: bold;
   font-style: normal;
+}
+.projectCard {
+  position: relative;
+  width: 30%;
+}
+.projectCard__img {
+  width: 100%;
+  height: 5rem;
+  border-radius: 25px;
 }/*# sourceMappingURL=ProjectCard.css.map */
