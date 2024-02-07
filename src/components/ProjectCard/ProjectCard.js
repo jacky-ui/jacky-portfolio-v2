@@ -26,6 +26,14 @@ function ProjectCard() {
                     src={testing}
                     alt=''
                 />
+                <figcaption className='projectCard__caption'>
+                    <h3>Studio Ghibli API</h3>
+                    <p>somethig something fdjsfadsklf fdsjfsdl fdskjfal</p>
+                    <div className='projectCard__caption--flex'>
+                        <a href='www.google.com'>Deployed</a>
+                        <a href='www.google.com'>Github</a>
+                    </div>
+                </figcaption>
             </article>                        
         </>
     )
