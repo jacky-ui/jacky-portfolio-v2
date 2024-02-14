@@ -15,7 +15,7 @@
         position: absolute;
         top: 0%;
         width: 100%;
-        height: 100%;
+        height: 15rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -25,9 +25,12 @@
         border-radius: 25px;
         opacity: 0;
         padding: 1rem;
+        transition: 0.25s;
+        transition-timing-function: ease-in-out;
         
         &:hover {
             transition: 0.25s;
+            transition-timing-function: ease-in-out;
             background-color: $black;
             color: white;
             opacity: unset;
