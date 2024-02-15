@@ -1,0 +1,31 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.projects {
+    margin: 5rem auto 4rem auto;
+    max-width: 65rem;
+
+    @include mobile {
+        padding: 0rem 2rem;
+    }
+
+    & > h2 {
+        @include subheader;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+
+        @include tablet {
+            justify-content: space-around;
+        }
+        @include mobile {
+            justify-content: center;
+            gap: unset;
+        }
+    }
+}

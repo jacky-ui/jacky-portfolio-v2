@@ -1,7 +1,7 @@
-// import beesKnees from '../../assets/images/bees-knees.png';
-// import studioGhibliApi from '../../assets/images/ghibli-project.png';
-// import ducommunicate from "../../assets/images/du-communicate.png";
-// import pokeBattle from '../../assets/images/pokebattle.png';
+import beesKnees from '../../assets/images/bees-knees.png';
+import studioGhibliApi from '../../assets/images/ghibli-project.png';
+import ducommunicate from "../../assets/images/du-communicate.png";
+import pokeBattle from '../../assets/images/pokebattle.png';
 // eslint-disable-next-line
 // import loginSignUp from '../../assets/images/login-signup-project.png';
 import educationIcon from '../images/education-icon.png';
@@ -90,7 +90,7 @@ const work = [
     },
 ]
 
-{/*const projects = [
+const projects = [
     {
         projectImage: beesKnees,
         subheader: "Bees Knees",
@@ -143,7 +143,7 @@ const work = [
         imageAlt: "Du-Communicate Server",
         tools: "#javascript #nodejs #expressjs #bcrypt"
     },
-];*/}
+];
 const skills = [
     {
         title: "Front-End",
@@ -271,4 +271,4 @@ const skills = [
     },
 ];
 
-export { navContent, aboutMe, education, work, skills };
+export { navContent, aboutMe, education, projects, work, skills };

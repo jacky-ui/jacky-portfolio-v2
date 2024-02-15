@@ -2,7 +2,7 @@
 @use '../../styles/partials/variables' as *;
 
 .nav {
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -11,7 +11,7 @@
 
     &__link {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         width: 70%;
         
         @include mobile {
