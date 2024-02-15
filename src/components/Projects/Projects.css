@@ -20,15 +20,32 @@
   margin: 5rem auto 4rem auto;
   max-width: 65rem;
 }
+@media screen and (max-width: 760px) {
+  .projects {
+    padding: 0rem 2rem;
+  }
+}
 .projects > h2 {
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 2rem;
   font-family: "Oregon";
   text-align: center;
+  margin-bottom: 2rem;
 }
 .projects__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 1rem;
+}
+@media screen and (max-width: 1000px) and (min-width: 761px) {
+  .projects__container {
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 760px) {
+  .projects__container {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=Projects.css.map */
