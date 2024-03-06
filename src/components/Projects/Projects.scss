@@ -36,6 +36,8 @@
             border: 1px solid;
             padding: 0.8rem 1.9rem;
             border-radius: 41px;
+            transition: 0.25s;
+            transition-timing-function: ease-in-out;
             
             &:hover {
                 border: 1px $font-header;
