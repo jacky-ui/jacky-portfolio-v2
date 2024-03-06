@@ -1,10 +1,10 @@
 // Import style
 import './NavLinks.scss';
 
-function NavLinks({ title, link, aria }) {
+function NavLinks({ componentClass, title, link, aria }) {
     return(
         <>
-            <a className='navlinks' href={link} aria-label={aria}>{title}</a>
+            <a className={componentClass} href={link} aria-label={aria}>{title}</a>
         </>
     )
 };

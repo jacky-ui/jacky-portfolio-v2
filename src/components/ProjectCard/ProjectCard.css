@@ -32,6 +32,8 @@
 }
 @media screen and (max-width: 760px) {
   .projectCard {
+    display: flex;
+    align-items: center;
     width: 100%;
   }
 }
@@ -47,7 +49,7 @@
 }
 @media screen and (max-width: 760px) {
   .projectCard__img {
-    height: 70%;
+    height: 80%;
   }
 }
 .projectCard__caption {
@@ -74,7 +76,8 @@
 }
 @media screen and (max-width: 760px) {
   .projectCard__caption {
-    height: 70%;
+    height: 80%;
+    top: 10%;
   }
 }
 .projectCard__caption:hover {

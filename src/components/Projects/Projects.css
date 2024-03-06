@@ -47,5 +47,10 @@
 @media screen and (max-width: 760px) {
   .projects__container {
     justify-content: center;
+    gap: unset;
   }
+}
+.projects__link {
+  text-align: center;
+  margin: 2rem 0rem;
 }/*# sourceMappingURL=Projects.css.map */
