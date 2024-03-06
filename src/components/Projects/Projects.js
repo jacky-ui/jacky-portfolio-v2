@@ -1,6 +1,7 @@
 // style, component and constant imports
 import { projects } from '../../assets/constants/constants';
 import ProjectCard from '../ProjectCard/ProjectCard';
+import NavLinks from '../NavLinks/NavLinks.js';
 import './Projects.scss';
 
 function Projects() {
@@ -20,6 +21,14 @@ function Projects() {
                         tool={project.tools}
                     />
                 ))}
+            </div>
+            <div className='projects__link'>
+                <NavLinks
+                        componentClass='navlinks'
+                        title='Link to my Github'
+                        link='https://github.com/jacky-ui'
+                        aria='Jacky Du Github'
+                />
             </div>
         </section>
     )

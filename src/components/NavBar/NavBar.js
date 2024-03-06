@@ -22,6 +22,7 @@ function NavBar() {
                 {navContent.map((content) => (
                     <NavLinks
                         key={content.key}
+                        componentClass={content.componentClass}
                         title={content.content}
                         link={content.link}
                         aria={content.arialabel}

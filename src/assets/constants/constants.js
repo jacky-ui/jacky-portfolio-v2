@@ -10,30 +10,35 @@ import workIcon from '../images/work-icon.png';
 const navContent = [
     {
         key: 1,
+        componentClass: 'navlinks',
         content: "Home",
         link: "#home",
         arialabel: "Click here to go home"
     },
     {
         key: 2,
+        componentClass: 'navlinks',
         content: "About",
         link: "#about",
         arialabel: "Click here to go about me section"
     },
     {
         key: 3,
+        componentClass: 'navlinks',
         content: "Skills",
         link: "#skills",
         arialabel: "Click here to go skills section"
     },
     {
         key: 4,
+        componentClass: 'navlinks',
         content: "Projects",
         link: "#projects",
         arialabel: "Click here to go projects section"
     },
     {
         key: 5,
+        componentClass: 'navlinks',
         content: "Contact Me",
         link: "#contactme",
         arialabel: "Click here to contact me"
