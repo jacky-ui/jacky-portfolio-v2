@@ -31,5 +31,16 @@
     &__link {
         text-align: center;
         margin: 2rem 0rem;
+
+        & > a {
+            border: 1px solid;
+            padding: 0.8rem 1.9rem;
+            border-radius: 41px;
+            
+            &:hover {
+                border: 1px $font-header;
+                background-color: $black;
+            }
+        }
     }
 }
