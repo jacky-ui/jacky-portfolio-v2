@@ -23,7 +23,7 @@ function App() {
         <Skills />
         <Projects />
       </main>
-      <footer className='footer'>
+      <footer className='footer' id='contactme'>
         <section className='footer__container'>
           <p className='footer__header'>Get in touch!</p>
           <article className='footer__links'>
