@@ -14,6 +14,7 @@ function Hamburger(props) {
                     <li key={content.content} onClick={props.closeMenuToggle}>
                         <NavLinks
                             key={content.content}
+                            componentClass={content.componentClass}
                             title={content.content}
                             link={content.link}
                             aria={content.arialabel}
