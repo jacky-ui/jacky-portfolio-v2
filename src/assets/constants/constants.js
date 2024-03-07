@@ -242,7 +242,7 @@ const skills = [
                 skillName: "express-rate-limit"
             },
             {
-                skillName: "VSCoded"
+                skillName: "VSCode"
             },
             {
                 skillName: "Figma"
