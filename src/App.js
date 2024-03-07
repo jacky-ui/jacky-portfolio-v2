@@ -23,13 +23,22 @@ function App() {
         <Skills />
         <Projects />
       </main>
-      <footer>
-        <section>
-          <p>Get in touch!</p>
-          <article>
-            <a>
-              <img 
+      <footer className='footer'>
+        <section className='footer__container'>
+          <p className='footer__header'>Get in touch!</p>
+          <article className='footer__links'>
+            <a href='https://www.linkedin.com/in/jacky-du-ctech/' aria-label='Click here for my linkedin profile' target='_new'>
+              <img
+                className='footer__icons'
+                src={linkedinIcon} 
                 alt='linkedin'
+              />
+            </a>
+            <a href='https://github.com/jacky-ui' aria-label='Click here for my Github' target='_new'>
+              <img
+                className='footer__icons'
+                src={githubIcon} 
+                alt='github'
               />
             </a>
           </article>
