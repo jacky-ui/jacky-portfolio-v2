@@ -65,10 +65,18 @@
         & > h3 {
             margin: 0%;
             @include subheader;
+
+            @include mobile {
+                @include smallheader;
+            }
         }
         & > p {
             margin: 0%;
             @include body-large-desktop;
+
+            @include mobile {
+                @include body-small-mobile;
+            }
         }
         &--flex {
             display: flex;
