@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoLight-nRd4.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoMedium-BWen.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoBold-gxe6.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+.projectCard {
+  position: relative;
+  width: 48%;
+}
+@media screen and (min-width: 1001px) {
+  .projectCard {
+    width: 32%;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 761px) {
+  .projectCard {
+    height: 17rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  .projectCard {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+}
+.projectCard__img {
+  width: 100%;
+  height: 15rem;
+  border-radius: 25px;
+}
+@media screen and (max-width: 1000px) and (min-width: 761px) {
+  .projectCard__img {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .projectCard__img {
+    height: 80%;
+  }
+}
+.projectCard__caption {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.8rem;
+  border-radius: 25px;
+  opacity: 0;
+  padding: 1rem;
+  transition: 0.25s;
+  transition-timing-function: ease-in-out;
+}
+@media screen and (max-width: 1000px) and (min-width: 761px) {
+  .projectCard__caption {
+    height: 17rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  .projectCard__caption {
+    height: 80%;
+    top: 10%;
+  }
+}
+.projectCard__caption:hover {
+  transition: 0.25s;
+  transition-timing-function: ease-in-out;
+  background-color: #1C1C1C;
+  color: white;
+  opacity: unset;
+}
+.projectCard__caption > h3 {
+  margin: 0%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+  font-family: "Oregon";
+}
+.projectCard__caption > p {
+  margin: 0%;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.75rem;
+  font-family: "Oregon";
+}
+.projectCard__caption--flex {
+  display: flex;
+  gap: 1rem;
+}
+.projectCard__caption--flex a {
+  color: #40E0D0;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 1.375rem;
+  font-family: "Oregon";
+}/*# sourceMappingURL=ProjectCard.css.map */

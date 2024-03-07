@@ -1,0 +1,84 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.projectCard {
+    position: relative;
+    width: 48%;
+
+    @include desktop {
+        width: 32%;
+    }
+    @include tablet {
+        height: 17rem;
+    }
+    @include mobile {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    
+    &__img {
+        width: 100%;
+        height: 15rem;
+        border-radius: 25px;
+
+        @include tablet {
+            height: 100%;
+        }
+        @include mobile {
+            height: 80%;
+        }
+    }
+
+    &__caption {
+        position: absolute;
+        top: 0%;
+        width: 100%;
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 0.8rem;
+        border-radius: 25px;
+        opacity: 0;
+        padding: 1rem;
+        transition: 0.25s;
+        transition-timing-function: ease-in-out;
+
+        @include tablet {
+            height: 17rem;
+        }
+        @include mobile {
+            height: 80%;
+            top: 10%;
+        }
+        
+        &:hover {
+            transition: 0.25s;
+            transition-timing-function: ease-in-out;
+            background-color: $black;
+            color: white;
+            opacity: unset;
+        }
+        & > h3 {
+            margin: 0%;
+            @include subheader;
+        }
+        & > p {
+            margin: 0%;
+            @include body-large-desktop;
+        }
+        &--flex {
+            display: flex;
+            gap: 1rem;
+
+            & a {
+                color: $font-header;
+                text-decoration: none;
+                @include label-buttons;
+            }
+        }
+    }
+}

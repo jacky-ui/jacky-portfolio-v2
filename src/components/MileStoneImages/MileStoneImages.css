@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoLight-nRd4.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoMedium-BWen.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoBold-gxe6.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+.milestoneimg {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 0rem 5rem;
+}
+.milestoneimg__icon {
+  background-color: #FFFFFF;
+  border-radius: 26px;
+  padding: 0.5rem;
+  width: 3rem;
+}
+.milestoneimg__icon:hover {
+  background-color: #40E0D0;
+  transition: 0.5s;
+}
+.milestoneimg__line {
+  border-bottom: 1px solid #FFFFFF;
+  width: 12rem;
+}/*# sourceMappingURL=MileStoneImages.css.map */

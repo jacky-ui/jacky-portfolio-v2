@@ -1,0 +1,53 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.projects {
+    margin: 5rem auto 4rem auto;
+    max-width: 65rem;
+
+    @include mobile {
+        padding: 0rem 2rem;
+    }
+
+    & > h2 {
+        @include subheader;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+
+        @include tablet {
+            justify-content: space-around;
+        }
+        @include mobile {
+            justify-content: center;
+            gap: unset;
+        }
+    }
+    &__link {
+        text-align: center;
+        margin: 2rem 0rem;
+
+        & > a {
+            border: 1px solid;
+            padding: 0.8rem 1.9rem;
+            border-radius: 41px;
+            transition: 0.25s;
+            transition-timing-function: ease-in-out;
+
+            @include mobile {
+                font-size: 1rem;
+                padding: 2% 5%;
+            }
+            
+            &:hover {
+                border: 1px $font-header;
+                background-color: $black;
+            }
+        }
+    }
+}

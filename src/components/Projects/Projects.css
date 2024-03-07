@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoLight-nRd4.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoMedium-BWen.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoBold-gxe6.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+.projects {
+  margin: 5rem auto 4rem auto;
+  max-width: 65rem;
+}
+@media screen and (max-width: 760px) {
+  .projects {
+    padding: 0rem 2rem;
+  }
+}
+.projects > h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+  font-family: "Oregon";
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.projects__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+@media screen and (max-width: 1000px) and (min-width: 761px) {
+  .projects__container {
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 760px) {
+  .projects__container {
+    justify-content: center;
+    gap: unset;
+  }
+}
+.projects__link {
+  text-align: center;
+  margin: 2rem 0rem;
+}
+.projects__link > a {
+  border: 1px solid;
+  padding: 0.8rem 1.9rem;
+  border-radius: 41px;
+  transition: 0.25s;
+  transition-timing-function: ease-in-out;
+}
+@media screen and (max-width: 760px) {
+  .projects__link > a {
+    font-size: 1rem;
+    padding: 2% 5%;
+  }
+}
+.projects__link > a:hover {
+  border: 1px #40E0D0;
+  background-color: #1C1C1C;
+}/*# sourceMappingURL=Projects.css.map */

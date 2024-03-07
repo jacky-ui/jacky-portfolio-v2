@@ -1,0 +1,58 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.nav {
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+
+    &__link {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        
+        @include mobile {
+            display: none;
+        }
+    }
+    &__image {
+        width: 30%;
+        text-align: end;
+        padding: 0%;
+
+        @include mobile {
+            text-align: unset;
+            width: unset;
+        }
+    }
+}
+
+.hamburger {
+    // hamburger icon animation
+    // First Hamburger Line
+    &--close1 {
+        transform: rotate(0);
+    }
+    &--first {
+        transform: rotate(45deg);
+    }
+    // Second Hamburger Line
+    &--close2 {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    &--second {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    // Third Hamburger Line
+    &--close3 {
+        transform: rotate(0);
+    }
+    &--third {
+        transform: rotate(-45deg);
+    }
+}

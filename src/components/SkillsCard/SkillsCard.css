@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoLight-nRd4.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoMedium-BWen.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oregon";
+  src: url("../../assets/fonts/OregonLdoBold-gxe6.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+.skillscard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.skillscard__container {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1000px) and (min-width: 761px) {
+  .skillscard__container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 760px) {
+  .skillscard__container {
+    flex-direction: column;
+  }
+}
+.skillscard__container > h3 {
+  width: 40%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+  font-family: "Oregon";
+}
+@media screen and (max-width: 1000px) and (min-width: 761px) {
+  .skillscard__container > h3 {
+    width: unset;
+  }
+}
+@media screen and (max-width: 760px) {
+  .skillscard__container > h3 {
+    width: unset;
+  }
+}
+.skillscard__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.75rem;
+  font-family: "Oregon";
+  width: 60%;
+}
+@media screen and (max-width: 1000px) and (min-width: 761px) {
+  .skillscard__list {
+    width: unset;
+  }
+}
+@media screen and (max-width: 760px) {
+  .skillscard__list {
+    width: unset;
+  }
+}
+.skillscard__list > li {
+  text-align: center;
+}
+.skillscard__list > li > p {
+  margin: 0%;
+}
+.skillscard__list > li > div > img {
+  width: 5rem;
+}
+
+.column {
+  flex-direction: column;
+}
+.column > ul {
+  justify-content: flex-start;
+  gap: 2rem;
+}/*# sourceMappingURL=SkillsCard.css.map */
