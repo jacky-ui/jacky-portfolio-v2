@@ -25,7 +25,7 @@ function Projects() {
             <div className='projects__link'>
                 <NavLinks
                     componentClass='navlinks'
-                    title='Link to my Github'
+                    title='See more on Github'
                     link='https://github.com/jacky-ui'
                     aria='Jacky Du Github'
                 />
