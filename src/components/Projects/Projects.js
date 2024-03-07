@@ -24,10 +24,10 @@ function Projects() {
             </div>
             <div className='projects__link'>
                 <NavLinks
-                        componentClass='navlinks'
-                        title='Link to my Github'
-                        link='https://github.com/jacky-ui'
-                        aria='Jacky Du Github'
+                    componentClass='navlinks'
+                    title='Link to my Github'
+                    link='https://github.com/jacky-ui'
+                    aria='Jacky Du Github'
                 />
             </div>
         </section>
